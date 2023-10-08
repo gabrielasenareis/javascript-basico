@@ -1,6 +1,5 @@
 //               0         1         2
-// let frutas = ['banana', 'melao', 'mamao']
-let numeros = [1, 2, 3, 4, 5]
+let frutas = ['banana', 'melao', 'mamao']
 
 // Acessar alguma posição/indice especifica
 // console.log(frutas[2])
@@ -14,10 +13,3 @@ let numeros = [1, 2, 3, 4, 5]
 
 //     console.log(frutas[i])
 // }
-let numerosMenoresQueTres = [];
-
-for (let i = 0; i < numeros.length; i++) {
-    if(numeros[i] < 3){
-        numerosMenoresQueTres.push(numeros[i])
-    }
-}
