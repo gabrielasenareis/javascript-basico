@@ -16,5 +16,13 @@ console.log(` O nome do usuário é ${perfilUsuário.nome} e sua idade é ${perf
 let chaves = ["nome", "idade", "estadoCivil"]
 
 for (let chave of chaves) {
-console.log(perfilUsuário[chave])
+console.log(`A chave ${chave} tem valor ${perfilUsuário[chave]}`)
 }
+
+// modificando e atribuindo novas chaves 
+
+perfilUsuário.nome = "Gabriela Sena"
+
+perfilUsuário.telefone = "719999999999"
+
+console.log(perfilUsuário)  
